@@ -1,2 +1,2 @@
 const teachers = ["noro","nakao","matsumoto"];
-console.log(teachers[0]);
+console.log(teachers[0,2]);

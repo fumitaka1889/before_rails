@@ -7,7 +7,6 @@ def repeat_string(str)
      puts shorten * 3
   end
 end
-repeat_string('Python')
-repeat_string('Go')
-repeat_string('C++')
-repeat_string('JavaScript')
+alphabet('abCD')
+alphabet('EEEE')
+alphabet('ffff')
