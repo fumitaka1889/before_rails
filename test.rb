@@ -16,5 +16,11 @@
 #
 # buy_burger('cheese',drink: true, potato: true)
 
-kakaku = "入力したのは" + gets
-puts kakaku
+def create_mail(recv)
+  puts recv + "様"
+  puts "PR企画の小林です。"
+  puts "今月の請求書を送ります。"
+end
+
+create_mail "山本"
+create_mail "宜野座"
